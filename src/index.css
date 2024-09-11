@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    border: 1px solid red;
+}
+
 .image {
     min-height: 50vh;
     position: relative;
@@ -10,16 +14,20 @@
     justify-content: center;
 }
 
-.image .content {
-
+.hero-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.content span.img-text {
+.hero-title {
+    /* position: relative; */
     color: #fff;
     text-transform: uppercase;
-    z-index: 2;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    /* height: 100%; */
+    text-align: center;
+    z-index: 5;
 }
 
 .dark-overlay {
@@ -30,6 +38,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: rgba(0, 0, 0, 0.3);
     z-index: 1;
 }

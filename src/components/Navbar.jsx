@@ -1,10 +1,10 @@
-import frisbeeLogo from '../../assets/logo/frisbee.png'
+import frisbeeLogo from '../assets/logo/frisbee.png'
 
 export default function Navbar() {
 
     return (
         <> 
-            <header className='px-12 pt-12 ' >
+            <header className='px-12 pt-12 z-10 w-screen' >
                 <nav className='flex justify-between items-center'>
                     <img src={frisbeeLogo} alt="frisbee logo" className='h-24' />
                     <ul className='flex gap-6'>
@@ -15,6 +15,7 @@ export default function Navbar() {
                     </ul>
                 </nav>
             </header>
+
         </>
     )
 }
