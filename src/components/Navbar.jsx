@@ -4,7 +4,7 @@ export default function Navbar() {
 
     return (
         <> 
-            <header className='px-12 pt-12 z-10 w-screen' >
+            <header className='px-12 pt-12 z-10 w-screen absolute' >
                 <nav className='flex justify-between items-center'>
                     <img src={frisbeeLogo} alt="frisbee logo" className='h-24' />
                     <ul className='flex gap-6'>

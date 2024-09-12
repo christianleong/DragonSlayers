@@ -22,10 +22,8 @@
 }
 
 .hero-title {
-    /* position: relative; */
     color: #fff;
     text-transform: uppercase;
-    /* height: 100%; */
     text-align: center;
     z-index: 5;
 }
