@@ -5,7 +5,7 @@ import Email from '../assets/icons/icons8-gmail-logo.svg'
 export default function Footer() {
 
     return (
-        <div className="footer-container">
+        <div className="footer-container bg-black w-full h-full text-white flex justify-center items-center gap-1.5">
             <a href="" className='z-10'>
                 <img className='h-10' src={Facebook} alt="Facebook link" />
             </a>
