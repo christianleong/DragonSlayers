@@ -1,16 +1,16 @@
-// import Navbar from "../components/Navbar";
-import Hero from "../components/Hero"
+import Navbar from "../components/Navbar";
+import ParallaxBanners from "../components/ParallaxBanners"
+import Footer from "../components/Footer";
+
 
 export default function Home() {
 
     return (
         <>
-            {/* <Navbar /> */}
-            {/* <div className="dark-overlay"></div>
-            <div className="content">
-                <span className="home-title">Welcome to DragonSlayers</span>
-            </div> */}
-            <Hero />
+            <div className="dark-overlay"></div>
+            <Navbar />
+            <ParallaxBanners />
+            < Footer />
         </>
     )
 }
