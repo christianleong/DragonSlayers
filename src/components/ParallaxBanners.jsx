@@ -33,7 +33,7 @@ export default function ParallaxBanners() {
                     </div>
                 </div>
             </div>
-            <ParallaxBanner style={{ aspectRatio: '6 / 1', height: '300px' }}>
+            <ParallaxBanner style={{ aspectRatio: '6 / 1', height: '350px' }}>
                 <ParallaxBannerLayer image={NASAImage3} speed={-20}/>
             </ParallaxBanner>
         </>
