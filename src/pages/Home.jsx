@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <>
-            <div className="dark-overlay"></div>
+            {/* <div className="dark-overlay"></div> */}
             <Navbar />
             <ParallaxBanners />
             <Footer />

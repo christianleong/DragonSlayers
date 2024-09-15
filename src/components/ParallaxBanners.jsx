@@ -13,7 +13,7 @@ export default function ParallaxBanners() {
                 <div className="absolute top-0 w-full h-full">
                     <div className="flex h-full items-center justify-center flex-col">
                         <div className='w-9/12 z-10'>
-                            <h1 className='text-9xl font-bold font-title text-white uppercase text-center'>Welcome to DragonSlayers Ultimate Club</h1>
+                            <h1 className='text-5xl md:text-7xl lg:text-8xl font-bold font-title text-white uppercase text-center'>Welcome to DragonSlayers Ultimate Club</h1>
                         </div>
                     </div>
                 </div>
